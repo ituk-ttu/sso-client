@@ -1,4 +1,4 @@
-package ee.ituk.SsoTestClient;
+package ee.ituk.sso_client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.context.request.RequestContextListener;
 
 @SpringBootApplication
-public class SsoDeskClientApplication extends SpringBootServletInitializer {
+public class SsoTestClientApplication extends SpringBootServletInitializer {
 
 	@Bean
 	public RequestContextListener requestContextListener() {
@@ -15,7 +15,7 @@ public class SsoDeskClientApplication extends SpringBootServletInitializer {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(SsoDeskClientApplication.class, args);
+		SpringApplication.run(SsoTestClientApplication.class, args);
 	}
 
 }

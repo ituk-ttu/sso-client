@@ -1,4 +1,4 @@
-package ee.ituk.SsoTestClient;
+package ee.ituk.sso_client;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SsoaDeskClientApplicationTests {
+public class SsoTestClientApplicationTests {
 
 	@Test
 	public void contextLoads() {

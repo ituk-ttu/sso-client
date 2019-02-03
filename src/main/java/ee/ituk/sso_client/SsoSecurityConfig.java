@@ -1,4 +1,4 @@
-package ee.ituk.SsoTestClient;
+package ee.ituk.sso_client;
 
 
 import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @EnableOAuth2Sso
 @Configuration
-public class SsoaSecurityConfig extends WebSecurityConfigurerAdapter {
+public class SsoSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(HttpSecurity http) throws Exception {

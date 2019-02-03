@@ -1,4 +1,4 @@
-package ee.ituk.SsoTestClient;
+package ee.ituk.sso_client;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.*;
 
 @Configuration
 @EnableWebMvc
-public class SsoaWebConfig implements WebMvcConfigurer {
+public class SsoWebConfig implements WebMvcConfigurer {
 
     @Bean
     public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
